@@ -6,13 +6,13 @@ public class Base {
 	}
 	{
 		System.out.println("Instance block - base");
-		
+
 	}
 		Base(){
 		System.out.println("Constructor - base");
 	}
-		
-	
+
+
 
 }
-	
+

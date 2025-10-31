@@ -1,7 +1,8 @@
 package Interface;
 
 public class Cat implements Animal {
-    public void makeSound() {
+    @Override
+	public void makeSound() {
         System.out.println("Meow!");
     }
 }

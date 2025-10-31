@@ -22,7 +22,7 @@ public class StudentName {
 	    void showDetails() {
 	        System.out.println("Name: " + this.name );
 	    }
-	
+
 	    public static void main(String[] args) {
 	        StudentName s1 = new StudentName();       // Calls no-arg constructor
 	        s1.display();                     // Calls method using 'this'

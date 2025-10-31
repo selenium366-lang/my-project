@@ -10,7 +10,7 @@ class Cat extends Animal {
 		Dog d =new Dog();
 		d.sound();
 		d.bark();
-		
+
 		Cat c = new Cat();
 		c.sound();
 		c.meow();

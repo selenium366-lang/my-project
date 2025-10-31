@@ -4,7 +4,7 @@ public class OddEvenNumbers {
 	public static void main(String[] args) {
 
         int[] arr = {11,20,33,40,59,9};
-        
+
         System.out.println("printing even numbers and odd numbers ");
 
         for(int number:arr){
@@ -15,7 +15,7 @@ public class OddEvenNumbers {
                 System.out.println("this is odd number :"+number);
 
         }
-        
+
      // ==================================***********************===================
         System.out.println("printing using while loop");
         int i=0;
@@ -39,7 +39,7 @@ public class OddEvenNumbers {
                 System.out.println("this is odd"+arr[j]);
             j++;
         }while(j<arr.length);
-        
+
 	}
 
 }

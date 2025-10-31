@@ -7,9 +7,9 @@ public class PrimeNumber {
 
 		int n = 18;
 		boolean isPrime = true;
-		
+
 		for(int i=2; i<n; i++) {
-			
+
 			if(n%i==0) {
 				isPrime=false;
 			}

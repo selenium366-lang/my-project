@@ -7,7 +7,7 @@ public class ReverseTheWords {
 
 		String str = "Hello World";
 		String rev = "";
-		
+
 		for(String word:str.split(" ")) {
 			rev = word+" "+ rev;
 		}

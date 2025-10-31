@@ -10,14 +10,14 @@ public class TvRemote extends Function {
 	    void turnOff() {
 	        System.out.println("TV is turned OFF.");
 	    }
-	
+
 	// Main class to demonstrate abstraction
-	
+
 	    public static void main(String[] args) {
 	        Function remote = new TvRemote(); //alternate TvRemote remote = new TvRemote();
-	        remote.turnOn();   
-	        remote.turnOff();  
+	        remote.turnOn();
+	        remote.turnOff();
 	    }
 
 }
-	
+

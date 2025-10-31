@@ -6,14 +6,14 @@ public class MakeCapsOfFirstCharOfString {
 		// TODO Auto-generated method stub
 
 		String str = "quality assurance testing";
-		
-		StringBuilder result = new StringBuilder(); 
-		
+
+		StringBuilder result = new StringBuilder();
+
 		for(String word:str.split(" ")) {
 			result.append(Character.toUpperCase(word.charAt(0))).append(word.substring(1)).append(" ");
 		}
 	System.out.println(result.toString().trim());
 	}
-	
+
 
 }

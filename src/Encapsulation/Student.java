@@ -1,17 +1,17 @@
 package Encapsulation;
 
 public class Student {
-	
+
 	private String name;
 	private int age;
-	
+
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name=name;
 	}
-	
+
 	public int getAge() {
 		return age;
 	}
@@ -26,12 +26,12 @@ public class Student {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		Student s = new Student();
 		s.setName("Abhijeet");
 		s.setAge(26);
 		System.out.println("StudentName name is:" + s.getName() + " and age is:" + s.getAge());
-		
+
 
 	}
 

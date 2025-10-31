@@ -1,9 +1,7 @@
 package Z.Coding.Programs.Array;
 
-import java.util.Arrays;
-
 public class ArrayCode {
-	
+
     public static void main(String[] args) {
 
         int[] arr = {11,20,33,40,59,9};
@@ -14,9 +12,9 @@ public class ArrayCode {
 
         //print everything - normal for loop-------------------------------------->1st way
         System.out.println("//print everything - normal for loop ");
-        
-        for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
+
+        for (int element : arr) {
+            System.out.println(element);
         }
 
         //for each-------------------------------------------------------------->2nd way
@@ -60,12 +58,12 @@ public class ArrayCode {
             sumOfNumbers = number + sumOfNumbers;
         }
         System.out.println(sumOfFirst8Numbers-sumOfNumbers);
-        
+
         // ==================================***********************===================
         //another logic
         System.out.println(((n*(n+1))/2)-sumOfNumbers);
-        
-    
+
+
     }
 
 

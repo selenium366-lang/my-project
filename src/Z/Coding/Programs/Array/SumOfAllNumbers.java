@@ -4,7 +4,7 @@ public class SumOfAllNumbers {
 	public static void main(String[] args) {
 
         int[] arr = {11,20,33,40,59,9};
-        
+
         // find the sum of all numbers in an array
           int sum =0; //31
 
@@ -12,8 +12,8 @@ public class SumOfAllNumbers {
              sum = sum + number; // sum+=number
          }
          System.out.println("Sum of the numbers in an array: "+sum);
-         
-         
+
+
       // ==================================***********************===================
          // find the sum of all numbers in an array except 40
 
@@ -27,9 +27,9 @@ public class SumOfAllNumbers {
          }
 
          System.out.println("sumWithOut40:"+sumWithOut40);
-         
-      
-        
+
+
+
 	}
 
 }

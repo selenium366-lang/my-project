@@ -10,7 +10,7 @@ public class ReverseAString {
 		for(int i= str.length()-1; i>=0;i--) {
 			rev = rev + str.charAt(i);}
 			System.out.print(rev);
-			
+
 			System.out.println("Using string builder");
 			System.out.println(new StringBuilder(str).reverse().toString());
 	}

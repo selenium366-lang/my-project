@@ -6,7 +6,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		Animal dog = new Dog();
         Animal cat = new Cat();
-        
+
         dog.makeSound();
         cat.makeSound();
 	}

@@ -1,7 +1,5 @@
 package Z.Coding.Programs.General;
 
-import java.util.Scanner;
-
 public class Factorial {
 
 	public static void main(String[] args) {
@@ -13,7 +11,7 @@ public class Factorial {
 			factorial = factorial * i;
 			System.out.println(factorial);
 		}
-		
+
 //		Scanner scanner = new Scanner(System.in);
 //        System.out.print("Enter a non-negative integer: ");
 //        int number = scanner.nextInt();
@@ -29,7 +27,7 @@ public class Factorial {
 //        }
 //        scanner.close();
 //    }
-		
-	
+
+
 	}}
 

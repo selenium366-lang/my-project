@@ -9,20 +9,20 @@ public class CompareArrays {
 
 		int[] arr1 = {1,2,3,4};
 		int[] arr2 = {1,2,4,3};
-		
+
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
-		
+
 		if(Arrays.equals(arr1, arr2)) {
 			System.out.println("equal");
 		}
 		else {
 			System.out.println("Not equal");
 		}
-		
+
 								//Another way
 								boolean isEqual = true;
-								
+
 								if(arr1.length != arr2.length) {
 									isEqual = false;
 								}

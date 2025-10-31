@@ -1,14 +1,12 @@
 package Z.Coding.Programs.Array;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.Set;
 
 public class FindDuplicates {
-	
+
     public static void main(String[] args) {
-    	
+
     	int arr[] = {4,2,7,2,4,4,9,1,7};
 
          System.out.println("find duplicates using any HashMap");
@@ -52,8 +50,8 @@ public class FindDuplicates {
              }
          }
 
-    	
-    
+
+
     }
 
 }

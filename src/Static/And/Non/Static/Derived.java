@@ -7,7 +7,7 @@ public class Derived extends Base {
 		}
 		{
 			System.out.println("Instance block - Derived");
-			
+
 		}
 			Derived(){
 			System.out.println("Constructor - Derived");

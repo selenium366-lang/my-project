@@ -10,7 +10,7 @@ public class ShrinkingOfAString {
 
 		String str = "aabbbccccddddd";
 		Map<Character, Integer> hashmap = new LinkedHashMap<>();
-		
+
 		for(char c  : str.toCharArray()) {
 			hashmap.put(c, hashmap.getOrDefault(c, 0)+1);
 		}

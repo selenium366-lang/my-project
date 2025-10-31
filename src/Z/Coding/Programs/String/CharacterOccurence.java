@@ -3,7 +3,7 @@ package Z.Coding.Programs.String;
 import java.util.LinkedHashMap;
 
 public class CharacterOccurence {
-	
+
 
 
     public static void main(String[] args) {
@@ -19,8 +19,8 @@ public class CharacterOccurence {
 
         System.out.println("Character Occurances");
         System.out.println(characterCount);
-        
-        
+
+
         //Second duplicate character
         System.out.println("Second non duplicate Character");
           int counter =0;
@@ -33,7 +33,7 @@ public class CharacterOccurence {
                 break;
             }
         }
-        
+
         //1st non duplicate char
         System.out.println("1st non duplicate Character");
         for(Character ch  :characterCount.keySet()){
@@ -41,7 +41,7 @@ public class CharacterOccurence {
             	System.out.println( ch +":"+characterCount.get(ch));
                 break;
             }
-        
+
     }
     }
 }

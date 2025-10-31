@@ -13,10 +13,10 @@ public class TreeSetEx {
 		s.add(60);
 		s.add(5);
 		s.add(30);
-		
+
 		//store element in descending order
 		System.out.println(s);
-		
+
 
 	}
 
