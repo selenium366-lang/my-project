@@ -51,6 +51,9 @@ public class XpathDemo {
 		 boolean displayStatus1 = driver1.findElement(By.xpath("//div[@id='logo'/a/img")).isDisplayed();
 		System.out.println(displayStatus1);
 		
+
+		driver.close();
+		
 	}
 
 }

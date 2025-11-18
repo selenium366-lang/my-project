@@ -25,7 +25,8 @@ public class CSSLocators {
 		//tag-class-attribute	tag.classname[attribute="value"]
 		driver.findElement(By.cssSelector("input.search-box-text[name='q']")).sendKeys("s25");
 		
-		
+
+		driver.close();
 	}
 
 }

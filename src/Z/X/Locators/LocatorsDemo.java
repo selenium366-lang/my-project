@@ -1,7 +1,9 @@
 package Z.X.Locators;
 
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.*;
@@ -13,6 +15,11 @@ public class LocatorsDemo {
 		WebDriver driver =new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
+//		
+//		//implicit wait
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		
 		
 		//id
 		driver.findElement(By.name("q")).sendKeys("Mac");
@@ -40,6 +47,8 @@ public class LocatorsDemo {
 		List<WebElement> listimg = driver.findElements(By.tagName("img"));
 		System.out.println("Total no. of img " + listimg.size());
 		
+
+		driver.close();
 		
 	}
 
