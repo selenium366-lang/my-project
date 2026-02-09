@@ -22,10 +22,10 @@ public class UniqueueElement {
 
         System.out.println("Unique elements using for loop");
 
-        for(int i=0; i<arr.length;i++){  // i=3
+        for(int i=0; i<arr.length;i++){
             boolean isUnique = true;
-            for( int j=0; j <arr.length;j++){ // j=0
-                if(i!=j && arr[i]==arr[j]){  // arr[1] =2  // arr[4] =4
+            for( int j=0; j <arr.length;j++){
+                if(i!=j && arr[i]==arr[j]){
                     isUnique =false;
                     break;
                 }

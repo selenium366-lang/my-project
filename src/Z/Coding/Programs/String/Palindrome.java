@@ -8,8 +8,9 @@ public class Palindrome {
 		String str = "madaam";
 		boolean isPalindrome = true;
 
-		for(int m=0; m<str.length()/2;m++) {
-			if(str.charAt(m)!=str.charAt(str.length()-m-1)) {
+		for(int i=0; i<str.length()/2;i++) {
+
+			if(str.charAt(i)!=str.charAt(str.length()-i-1)) {
 
 				isPalindrome=false;
 				break;

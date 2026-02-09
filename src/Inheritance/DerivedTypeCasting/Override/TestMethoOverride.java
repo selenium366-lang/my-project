@@ -6,11 +6,14 @@ public class TestMethoOverride {
 		// TODO Auto-generated method stub
 
 		Animal a = new Dog(); //Up-casting
-		a.sound();
-		// a.bark();  //Not allowed directly
+		 // a.sound();
+         // a.doing();
+		//a.bark();  //Not allowed directly
 
 		Dog d = (Dog) a; //Down casting
 		d.bark();
+        d.sound();
+        d.doing();
 	}
 
 }

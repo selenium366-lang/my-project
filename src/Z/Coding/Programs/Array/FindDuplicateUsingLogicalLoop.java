@@ -9,15 +9,13 @@ public class FindDuplicateUsingLogicalLoop {
 
         boolean[] visited = new boolean[arr.length];
 
-        //{false,true,true,true,true,false,true,false}
-
-        for( int i=0; i<arr.length;i++){ //i=4
+        for( int i=0; i<arr.length;i++){
             if(visited[i])
             continue;
 
             boolean isDuplicate =false;
-            for(int j=i+1;j<arr.length;j++){  //j=4,
-                if(arr[i]==arr[j]){  //arr[3] ==arr[4]    2 ==2
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i]==arr[j]){
                     isDuplicate=true;
                     visited[j]=true;
 
@@ -25,7 +23,7 @@ public class FindDuplicateUsingLogicalLoop {
             }
 
             if(isDuplicate){
-                System.out.println(arr[i]); //4
+                System.out.println(arr[i]);
             }
 
         }

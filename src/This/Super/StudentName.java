@@ -3,18 +3,19 @@ package This.Super;
 public class StudentName {
 	    String name;
 
-	    // 1️⃣ Invoking current class constructor
+	    // Invoking current class constructor
 	    StudentName() {
 	        this("Default Name"); // Calls the 2-arg constructor
 	        System.out.println("Default constructor called");
 	    }
 
-	    // 2️⃣ Using 'this' to refer to instance variables
+	    //  Using 'this' to refer to instance variables
 	    StudentName(String name) {
 	        this.name = name; // Refers to the instance variable
+            System.out.println("parameterized constructor with this keyword");
 	    }
 
-	    // 3️⃣ Using 'this' to invoke current class method
+	    //  Using 'this' to invoke current class method
 	    void display() {
 	        this.showDetails(); // Invokes current class method
 	    }
@@ -27,7 +28,7 @@ public class StudentName {
 	        StudentName s1 = new StudentName();       // Calls no-arg constructor
 	        s1.display();                     // Calls method using 'this'
 
-	        StudentName s2 = new StudentName("Alice");
+	        StudentName s2 = new StudentName("AB");
 	        s2.display();
 	    }
 	}

@@ -15,7 +15,7 @@ public class Child extends Parent {
         Child.show();  // Output: Child static show()
 
         Parent pr = new Child();
-        Parent.show();  // Output: Parent static show() ← shadowing!
+        Parent.show();  // Output: Parent static show() shadowing!
 
 	}
 

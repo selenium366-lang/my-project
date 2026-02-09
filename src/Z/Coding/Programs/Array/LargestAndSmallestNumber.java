@@ -19,6 +19,7 @@ public class LargestAndSmallestNumber {
             else if( number < smallest)
                 smallest =number;
         }
+        System.out.println("largest:"+ largest+ " smallest:"+smallest);
 
 //        for( int k=1 ; i < arr.length; i++){
 //

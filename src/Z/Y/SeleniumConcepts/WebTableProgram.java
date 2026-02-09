@@ -18,9 +18,12 @@ public class WebTableProgram {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://testautomationpractice.blogspot.com/");
 
+        //Get specific column all values
+        List<WebElement> subj = driver.findElements(By.xpath("//table[@name='BookTable']/tbody/tr/td[3]"));
+        for(WebElement ele : subj)
+        System.out.println(ele.getText());
 
         WebElement table = driver.findElement(By.xpath("//table[@id='taskTable']"));
-
         List<WebElement> rows = table.findElements(By.tagName("tr"));
 
 //        for(WebElement row : rows){
